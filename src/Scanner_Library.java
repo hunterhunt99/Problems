@@ -6,7 +6,7 @@ public class Scanner_Library {
     public static List<Integer> scanValue(){
         Scanner scan = new Scanner(System.in);
         List<Integer> newList = new ArrayList<>(10);
-        for(int i=0;i<10;i++){
+        for(int i=0;i<10;i++) {
             newList.add(scan.nextInt());
         }
         return newList;
