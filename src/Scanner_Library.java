@@ -12,6 +12,7 @@ public class Scanner_Library {
         return newList;
     }
 }
+
 class ScannerMain{
     public static void main(String[] args){
         System.out.println(Scanner_Library.scanValue());
